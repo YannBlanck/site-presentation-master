@@ -1,0 +1,236 @@
+body {
+    background-color: rgb(191, 230, 255);
+    background-image: url(IMG/test.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+header {
+
+    background-color: rgba(37, 106, 133, 0.534);
+
+    color: white;
+    text-decoration: underline 2px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+
+    margin-bottom: 15px;
+    padding: 5px;
+
+    height: 18px;
+}
+
+
+
+nav {
+    background-color: rgba(37, 106, 133, 0.534);
+    color: white;
+    position: fixed;
+    width: 140px;
+    height: 300x;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+
+
+.accueil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#sectionacceuil {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#titreac {
+    margin-bottom: 4%;
+}
+
+#acceuil {
+    height: 16vw;
+
+}
+
+#titreimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+figcaption {
+    display: table-caption;
+    caption-side: top;
+}
+
+
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    margin: 15px;
+    padding: 5px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    margin-top: 1.5em;
+    text-decoration: underline 2px;
+    font-family: 'Sono', sans-serif;
+    color: azure;
+
+}
+
+h2 {
+    margin-top: 1.5em;
+    text-decoration: underline 2px;
+    font-family: 'Sono', sans-serif;
+    color: azure;
+}
+
+h4 {
+    margin-top: 30px;
+    text-decoration: underline 1px;
+    color: rgb(146, 230, 255);
+    font-family: 'Sono', sans-serif;
+}
+
+h5 {
+    margin-top: 1em;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    text-decoration: underline 2px;
+    font-family: 'Sono', sans-serif;
+    color: white;
+}
+
+
+p {
+    margin: 2px;
+    padding: 7px;
+
+    border-style: solid;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 2px;
+    width: 50%;
+
+
+    background-color: rgb(169, 192, 198);
+
+    box-shadow: 5px 2px;
+
+    font-family: 'Oswald', 'Sono', sans-serif;
+}
+
+#techid {
+    width: 30%;
+    height: 50%;
+}
+
+#cyb {
+    width: 30%;
+    height: 80px;
+}
+
+img {
+    border-style: solid;
+    border-radius: 3%;
+    border-color: rgb(151, 151, 151);
+    border-width: 2px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nouvelletech {
+    height: 15vw;
+    margin: 0.5em;
+}
+
+.APHOTO {
+    display: flex;
+}
+
+.PHOTO {
+    height: 13VW;
+    margin: 0.5em;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+
+}
+
+.PHOTO:hover {
+
+
+    height: 20vw;
+}
+
+
+.RT {
+    height: 10vw;
+    margin: 0.5em;
+}
+
+.cyber {
+    height: 10vw;
+    margin: 0.5em;
+}
+
+#img_moi {
+    height: 11vw;
+    margin: 0.5em;
+}
+
+footer {
+    background-color: rgba(37, 106, 133, 0.534);
+    color: azure;
+
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+
+
+    margin-top: 50px;
+    padding: 5px;
+}
